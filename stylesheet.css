@@ -1,0 +1,24 @@
+body {
+  background-color: orange;
+  font-family: arial, helvetica, sans serif;
+  line-height: 10px;
+}
+
+.header {
+  background-color: rgb(1, 11, 68);
+  text-align: right;
+  height: 10vh;
+  position: top;
+  color: white;
+}
+
+.h1 {
+  font-size: 42px;
+  font-family: inherit;
+  font-weight: 800;
+}
+
+.h2 {
+  font-size: 28px;
+  font-style: italic;
+}
