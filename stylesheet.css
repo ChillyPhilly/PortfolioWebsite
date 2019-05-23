@@ -7,9 +7,13 @@ body {
 .header {
   background-color: rgb(1, 11, 68);
   text-align: right;
-  height: 10vh;
-  position: top;
+  height: 86px;
+  position: absolute;
   color: white;
+  padding-top: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .h1 {
