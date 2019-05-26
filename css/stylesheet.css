@@ -1,0 +1,108 @@
+
+body {
+  overflow: hidden;
+  display: flex;
+  background-color: #F2C27E;
+  font-family: arial, helvetica, sans serif;
+  line-height: 25px;
+  box-shadow: 5px 5px 5px #75716B;
+  border-radius: 6px;
+  margin-right: 20vh;
+}
+
+.rightheader {
+  text-align: right;
+  height: 15vh;
+  position: absolute;
+  color: white;
+  top: 0;
+  right: 1vw;
+  width: 70%;
+  line-height: 8px;
+  border-radius: inherit;
+  box-shadow: 5px 5px 5px 5px #75716B;
+  padding-right: 12px;
+}
+
+.h1 {
+  font-size: 7vh;
+  font-family: inherit;
+  font-weight: 800;
+}
+
+.h2 {
+  font-size: 5.5vh;
+  font-style: italic;
+}
+
+.leftsidebar {
+  position: absolute;
+  top: 16vh;
+  background-color: #9BA5AB;
+  border-radius: inherit;
+  box-shadow: inherit;
+  width: 22%;
+  padding: 4px;
+  padding-left: 1vmax;
+  color: white;
+}
+
+.sidebarheading {
+  font-family: inherit;
+  font-weight: 800;
+}
+
+.leftheader {
+  position: absolute;
+  top: 5px;
+}
+
+.logo {
+  position: absolute;
+  height: 13vh;
+  width: 13vh;
+  margin-left: 0;
+  padding: 0;
+}
+
+.content {
+  position: absolute;
+  top: 16vh;
+  font-family: inherit;
+  background-color: #A1B8C7;
+  width: 70%;
+  right: 0;
+  border-radius: inherit;
+  box-shadow: inherit;
+  padding: 6px;
+  overflow-x: hidden; /* removes horizontal scroll bar */
+  overflow-y: auto;
+  height: 85%;
+}
+
+.paragraph {
+  position: absolute;
+  top: 90px;
+  font-family: inherit;
+  border-radius: inherit;
+  box-shadow: inherit;
+  padding: 6px;
+  overflow-y: auto;
+}
+
+.imagecontainer {
+  display:inline-flex;
+  position:absolute;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.image {
+  width: 60vmin;
+  height: 60vmin;
+  margin: 4px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 4px;
+}
