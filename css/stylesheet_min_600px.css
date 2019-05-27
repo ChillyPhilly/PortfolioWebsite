@@ -1,0 +1,113 @@
+@media only screen and (min-width: 600px) and (max-width: 654px){
+
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%
+  }
+
+  body {
+    overflow: hidden;
+    display: flex;
+    background-color: #d9feff;
+    font-family: arial, helvetica, sans serif;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px #8fa7a8;
+    border-radius: 6px;
+    margin-right: 20vh;
+  }
+/* Top and side bars */
+  .logo {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .right-header {
+    text-align: right;
+    height: 128px;
+    position: absolute;
+    color: #403630;
+    top: 0;
+    right: 6px;
+    width: auto;
+    left: 0;
+    line-height: 8px;
+    border-radius: inherit;
+    box-shadow: 5px 5px 5px 1px #8fa7a8;
+    padding-right: 12px;
+  }
+
+  nav {
+    position: absolute;
+    top: 140px;
+    background-color: #d9feff;
+    border-radius: inherit;
+    box-shadow: inherit;
+    width: 110px;
+    padding: 4px;
+    padding-left: 0;
+    color: #403630;
+  }
+/* Heading text */
+  h1 {
+    font-size: 62px;
+    font-family: inherit;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: 44px;
+    font-style: italic;
+  }
+
+  h3 {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 0;
+  }
+/* Content */
+  .content-container {
+    position: absolute;
+    top: 140px;
+    font-family: inherit;
+    background-color: #ffe7d9;
+    width: auto;
+    left: 132px;
+    border-radius: inherit;
+    box-shadow: inherit;
+    padding: 6px;
+    overflow-x: hidden; /* removes horizontal scroll bar */
+    bottom: 0; /* Prevents image cutoff */
+  }
+
+  article {
+    font-family: inherit;
+    border-radius: inherit;
+    box-shadow: inherit;
+    padding: 6px;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .image-container {
+    display:inline-flex;
+    position:absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+    height: auto;
+  }
+
+  .image {
+    width: 35vmin;
+    height: 35vmin;
+    margin: 4px;
+    box-shadow: 5px 5px 5px #403630;
+    border-radius: 4px;
+  }
+}
