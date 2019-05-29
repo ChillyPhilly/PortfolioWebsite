@@ -1,4 +1,4 @@
-@media only screen and (min-width: 465px) and (max-width: 599px) {
+@media only screen and (max-width: 464px) {
 
   img,
   embed,
@@ -20,20 +20,20 @@
 /* Top and side bars */
   .logo {
     position: absolute;
-    height: 110px;
-    width: 110px;
+    height: 70px;
+    width: 70px;
     margin-left: 0;
     padding: 0;
   }
 
   .right-header {
     text-align: right;
-    height: 128px;
+    height: 80px;
     position: absolute;
     color: #403630;
     top: 0;
-    right: 6px;
-    width: auto;
+    right: 0px;
+    width: 100%s;
     left: 0;
     line-height: 8px;
     border-radius: inherit;
@@ -42,25 +42,39 @@
   }
 
   nav {
+    display: inline;
     position: absolute;
-    top: 140px;
+    top: 84px;
     background-color: #d9feff;
     border-radius: inherit;
     box-shadow: inherit;
-    width: 110px;
-    padding: 4px;
-    padding-left: 0;
+    width: 100%;
+    padding: 0;
+    left: 4px;
+    right: 4px;
+    width: auto;
     color: #403630;
   }
+
+  .links {
+    display: none;
+  }
+
+  li {
+    float: left;
+    padding: 12px;
+    list-style: none;
+  }
+
 /* Heading text */
   h1 {
-    font-size: 62px;
+    font-size: 38px;
     font-family: inherit;
     font-weight: 800;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 22px;
     font-style: italic;
   }
 
@@ -73,11 +87,10 @@
 /* Content */
   .content-container {
     position: absolute;
-    top: 140px;
+    top: 150px;
     font-family: inherit;
     background-color: #ffe7d9;
     width: auto;
-    left: 132px;
     border-radius: inherit;
     box-shadow: inherit;
     padding: 6px;
@@ -104,8 +117,8 @@
   }
 
   .image {
-    width: 60vmin;
-    height: 60vmin;
+    width: 80vmin;
+    height: 80vmin;
     margin: 4px;
     box-shadow: 5px 5px 5px #403630;
     border-radius: 4px;
