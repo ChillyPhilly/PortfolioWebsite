@@ -71,7 +71,7 @@
     line-height: 0;
   }
 /* Content */
-  .content-container {
+  main {
     position: absolute;
     top: 140px;
     font-family: inherit;
